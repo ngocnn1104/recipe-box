@@ -109,6 +109,7 @@ input, #inputIngredients {
   color: white;
   border: none;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .add-recipe-area {
