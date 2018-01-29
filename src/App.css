@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:400,700');
+
+body {
+  /* background-color: #FFF1E6; */
+  background: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: 'Josefin Slab', serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  color: #A74C00;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+h3 {
+  cursor: pointer;
+  background-color: #FFAA00;
+  padding: 10px 10px;
+  border-radius: 15px 15px 0px 0px;
+  margin-bottom: 0;
+  font-weight: 700;
+  color: white;
+  font-size: 25px;
+}
+
+.list {
+  background-color: #FFE1A4;
+  padding: 5px 10px;
+  border-radius: 0px 0px 15px 15px;
+}
+
+button, .list {
+  display: none;
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-family: 'Josefin Slab', serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.edit-btn {
+  background-color: rgb(46, 106, 243);
+  color: white;
+  border: none;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.delete-btn {
+  background-color: #FF1919;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+span {
+  cursor: pointer;
+  border: thin black solid;
+  border-radius: 10px;
+  padding: 5px 5px;
+  margin: 10px 10px;
+  text-align: center;
+}
+
+#saveCancelBtn {
+  width: 150px;
+  margin: 0 auto;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+input, #inputIngredients {
+  display: block;
+  margin: 10px auto;
+  width: 50%;
+  overflow: scroll;
+  font-family: 'Josefin Slab', serif;
+}
+
+#inputIngredients {
+  height: 80px;
+}
+
+#inputNewRecipe {
+  margin-bottom: 20px;
+}
+
+.recipes {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 10px;
+}
+
+#addRecipeBtn {
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(46, 106, 243);
+  color: white;
+  border: none;
+  margin-top: 20px;
+}
+
+.add-recipe-area {
+  margin-bottom: 50px;
+}
+
+#inputTitle {
+  font-size: 22px;
+  height: 25px;
+}
+
+#edit-recipe-box {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.4);
+}
+
+#box-content {
+  width: 50%;
+  margin: 10% auto;
+  background-color:#FFAA00;
+  text-align: center;
+  position: relative;
+  padding: 10px 10px 20px 10px;
+}
+
+.edit-box-heading {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#input-modal-box {
+  width: 80%;
+  height: 100px;
+  overflow: scroll;
+  display: block;
+  margin: 20px auto;
+  font-family: 'Josefin Slab', serif;
+}
+
+#close {
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 0; right: 0;
+  padding: 5px 8px;
+  margin: 0;
+}
+
+#close:hover {
+  cursor: pointer;
+}
+
+#savebtn-modal-box {
+  font-weight: 700;
+}
+
+.save-btn {
+  background-color: rgb(46, 106, 243);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+
+.cancel-btn {
+  background-color: #FF1919;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
